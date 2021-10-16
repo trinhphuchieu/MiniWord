@@ -52,23 +52,31 @@ namespace MiniWord_TrinhPhucHieu
         private int res = 0;
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            string str = txtTimKiem.Text;
-            string file = this.ghi.Text;
-
-            res = ghi.Find(str, res, GetOptions()); // hàm tìm kiếm
-
-            // nếu ko tìm thấy
-            if (res == -1)
+            try
             {
-                this.ghi.Select(0, 0);
-                res = 0;
-                MessageBox.Show("Tìm kiếm hoàn tất.");           
+
+                string str = txtTimKiem.Text;
+                string file = this.ghi.Text;
+
+                res = ghi.Find(str, res, GetOptions()); // hàm tìm kiếm
+
+                // nếu ko tìm thấy
+                if (res == -1)
+                {
+                    this.ghi.Select(0, 0);
+                    res = 0;
+                    MessageBox.Show("Tìm kiếm hoàn tất.");
+                }
+                else
+                {
+                    this.ghi.Focus();
+                    res += 1;
+                }
             }
-            else 
+            catch
             {
-                this.ghi.Focus();
-                res = res + txtTimKiem.Text.Length;
-            } 
+
+            }
            
         }
 

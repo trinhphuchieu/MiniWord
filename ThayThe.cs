@@ -46,38 +46,52 @@ namespace MiniWord_TrinhPhucHieu
         // tìm kiếm
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            string str = txtTimKiem.Text;
-            string file = this.ghi.Text;
-            if (res > file.Length) res = 0;
-            res = ghi.Find(str, res, GetOptions());
-
-            if (res == -1)
+            try
             {
-                this.ghi.Select(0, 0);
-                res = 0;
-                MessageBox.Show("Tìm kiếm hoàn tất.");
-            }
-            else
-            {
-                this.ghi.Focus();
-                res = res + txtTimKiem.Text.Length;
-            }
+                string str = txtTimKiem.Text;
+                string file = this.ghi.Text;
+                if (res > file.Length) res = 0;
+                res = ghi.Find(str, res, GetOptions());
 
+                if (res == -1)
+                {
+                    this.ghi.Select(0, 0);
+                    res = 0;
+                    MessageBox.Show("Tìm kiếm hoàn tất.");
+                }
+                else
+                {
+                    this.ghi.Focus();
+                    res += 1;
+                }
+            }
+            catch
+            {
+
+            }
         }
 
 
         // thay thế 
         private void btnThayThe_Click(object sender, EventArgs e)
         {
-            string str = txtThayThe.Text.Length == 0 ? " " : txtThayThe.Text;
-
-
-
-            if (this.ghi.SelectedText.Length != 0)
+            try
             {
-                this.ghi.SelectedText = this.ghi.SelectedText.Replace(this.ghi.SelectedText, str);
-            }  
-            btnTimKiem.PerformClick();
+
+                string str = txtThayThe.Text.Length == 0 ? " " : txtThayThe.Text;
+
+
+
+                if (this.ghi.SelectedText.Length != 0)
+                {
+                    this.ghi.SelectedText = this.ghi.SelectedText.Replace(this.ghi.SelectedText, str);
+                }
+                btnTimKiem.PerformClick();
+            }
+            catch
+            {
+
+            }
          
         }
 
@@ -85,10 +99,18 @@ namespace MiniWord_TrinhPhucHieu
         // thay thế tất cả
         private void btnThayTheAll_Click(object sender, EventArgs e)
         {
-            string str = txtThayThe.Text.Length == 0 ? " " : txtThayThe.Text;
-            string txt = " ";
-            if(txtTimKiem.Text.Length != 0) txt = txtTimKiem.Text; 
-            this.ghi.Text = this.ghi.Text.Replace(txt, str);
+            try
+            {
+
+                string str = txtThayThe.Text.Length == 0 ? " " : txtThayThe.Text;
+                string txt = " ";
+                if (txtTimKiem.Text.Length != 0) txt = txtTimKiem.Text;
+                this.ghi.Text = this.ghi.Text.Replace(txt, str);
+            }
+            catch
+            {
+
+            }
         }
 
         // hủy

@@ -8,5 +8,9 @@ namespace MiniWord_TrinhPhucHieu
 {
     class Cls_Hieu
     {
+
+
+       
+
     }
 }

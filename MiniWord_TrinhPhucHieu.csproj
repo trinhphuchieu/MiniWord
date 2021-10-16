@@ -245,5 +245,32 @@
   <ItemGroup>
     <None Include="icon\icons8-anime-emoji-80.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-close-window-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-close-tab-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-close-tab-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-undo-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-forward-arrow-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-undo-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-redo-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-redo-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-undo-30 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
