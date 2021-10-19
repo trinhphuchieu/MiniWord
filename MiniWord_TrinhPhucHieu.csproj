@@ -272,5 +272,44 @@
   <ItemGroup>
     <None Include="icon\icons8-undo-30 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-color-dropper-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-text-color-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-a-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-a-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-b-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-italic-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-copy-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-paste-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-cut-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-search-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-replace-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-search-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-list-is-empty-48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

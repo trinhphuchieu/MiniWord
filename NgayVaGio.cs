@@ -46,10 +46,10 @@ namespace MiniWord_TrinhPhucHieu
             s.Add("PM", "Buổi Chiều");
             radioButton1.Text = date.ToString("dd/MM/yyyy");
             radioButton2.Text = date.ToString("dd-MM-yyyy");
-            radioButton3.Text = thayDoiNT(s, DateTime.Now.DayOfWeek.ToString()) + ", "+ thayDoiNT(s,date.ToString("MMMM"))+", "+date.ToString("yyyy");
-            radioButton4.Text = thayDoiNT(s, DateTime.Now.DayOfWeek.ToString()) + ", Tháng "+date.Month + ", " + date.ToString("yyyy");
+            radioButton3.Text = thayDoiNT(s, DateTime.Now.DayOfWeek.ToString()) + ", Ngày " + date.Day +" "+ thayDoiNT(s,date.ToString("MMMM"))+", "+date.ToString("yyyy");
+            radioButton4.Text = thayDoiNT(s, DateTime.Now.DayOfWeek.ToString()) +", Ngày "+date.Day+ " Tháng "+date.Month + " Năm " + date.ToString("yyyy");
             radioButton5.Text = date.ToString("hh:mm:ss");
-            radioButton6.Text = date.ToString("HH:mm:ss");
+            radioButton6.Text = date.ToString("HH:mm:ss ")+date.ToString("tt");
             radioButton7.Text = date.ToString("HH:mm:ss ") + thayDoiNT(s,date.ToString("tt"));
         }
 
@@ -75,6 +75,12 @@ namespace MiniWord_TrinhPhucHieu
         private void btnOk_Click(object sender, EventArgs e)
         {
             rtxGhi.SelectedText = str;
+            this.Close();
+        }
+
+        private void NgayVaGio_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

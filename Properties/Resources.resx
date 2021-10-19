@@ -118,86 +118,227 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-paste-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-paste-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-underline-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-underline-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="saveFile2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\saveFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-replace-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-replace-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="uUnderLine1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="uUnderLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\uUnderLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aCrease" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\aCrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-align-left-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-align-left-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Microsoft_Photos_Icon_on_Windows_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Microsoft_Photos_Icon_on_Windows_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-search-more-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-search-more-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aCrease1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\aCrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-align-left-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-align-left-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-close-window-502" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-close-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-align-justify-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-align-justify-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-time-limit-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-time-limit-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-search-more-60" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-search-more-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aDecrease1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\aDecrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-a-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-a-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="openFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\openFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-undo-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-close-window-502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-close-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-anime-emoji-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-anime-emoji-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-forward-arrow-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-forward-arrow-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="saveAs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\saveAs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-cut-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-cut-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-search-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-search-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aDecrease" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\aDecrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="saveFile2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\saveFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\openFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-redo-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-redo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uUnderLine1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\uUnderLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-align-left-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-align-left-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\newFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-undo-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aCrease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\aCrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-text-color-48 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-text-color-48 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-search-more-601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-search-more-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-window-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-close-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-undo-242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveFile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\saveFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-align-right-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-align-right-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-undo-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\italic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\printFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-picture-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-picture-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="aCrease2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\aCrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-zoom-in-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-zoom-in-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-search-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-search-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-align-left-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-align-left-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-chisel-tip-marker-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-chisel-tip-marker-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-color-dropper-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-color-dropper-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="uUnderLine2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\uUnderLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-zoom-in-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-zoom-in-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-undo-30 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-undo-30 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-redo-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-redo-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-text-color-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-text-color-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\saveFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-redo-242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-redo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-undo-243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-italic-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-italic-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-underline-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-underline-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aCrease1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\aCrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-underline-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-underline-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-align-justify-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-align-justify-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-list-is-empty-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-list-is-empty-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-paste-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-paste-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-time-limit-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-time-limit-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gallery-131964752828011266" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\gallery-131964752828011266.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft_Photos_Icon_on_Windows_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Microsoft_Photos_Icon_on_Windows_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-replace-48 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-replace-48 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-paste-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-paste-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-cut-48 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-cut-48 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-cut-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-cut-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-add-image-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-add-image-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-undo-30 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-undo-30 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-a-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-a-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-color-dropper-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-color-dropper-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-zoom-out-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-zoom-out-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-cut-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-cut-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-copy-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-copy-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-search-48 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-search-48 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-text-color-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-text-color-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-tab-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-close-tab-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-window-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-close-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aDecrease1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\aDecrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-underline-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-underline-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-align-left-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-align-left-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-redo-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-redo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-strikethrough-60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-strikethrough-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-italic-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-italic-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-color-dropper-482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-color-dropper-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-copy-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-copy-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uUnderLine3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\uUnderLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-zoom-in-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-zoom-in-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-tab-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-close-tab-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-undo-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-undo-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,109 +346,40 @@
   <data name="icons8-redo-301" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-redo-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="saveFile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\saveFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-forward-arrow-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-forward-arrow-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\italic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="uUnderLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\uUnderLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-chisel-tip-marker-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-chisel-tip-marker-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-text-color-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-text-color-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-text-color-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-text-color-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-italic-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-italic-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-undo-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gallery-131964752828011266" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\gallery-131964752828011266.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="saveAs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\saveAs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-undo-30 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-undo-30 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-text-color-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-text-color-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-close-window-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-close-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-underline-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-underline-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-underline-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-underline-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-undo-30 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-undo-30 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-zoom-out-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-zoom-out-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-picture-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-picture-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-redo-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-redo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-close-window-501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-close-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-strikethrough-60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-strikethrough-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-close-tab-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-close-tab-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-align-right-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-align-right-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-b-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-b-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-copy-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-copy-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="printFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\printFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-redo-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-redo-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aDecrease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\aDecrease.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="newFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\newFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-replace-48 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-replace-48 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="saveFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\saveFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-search-more-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-search-more-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-search-more-601" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-search-more-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-text-color-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-text-color-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-undo-242" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-undo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-chisel-tip-marker-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-chisel-tip-marker-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-close-tab-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-close-tab-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-align-left-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-align-left-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-chisel-tip-marker-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-chisel-tip-marker-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-replace-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-replace-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-zoom-in-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-zoom-in-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-add-image-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-add-image-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-redo-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-redo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-paste-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-paste-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

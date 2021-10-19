@@ -123,9 +123,39 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bold1 {
+            get {
+                object obj = ResourceManager.GetObject("Bold1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gallery_131964752828011266 {
             get {
                 object obj = ResourceManager.GetObject("gallery-131964752828011266", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_a_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-a-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_a_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-a-26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +233,16 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_b_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-b-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_chisel_tip_marker_40 {
             get {
                 object obj = ResourceManager.GetObject("icons8-chisel-tip-marker-40", resourceCulture);
@@ -273,9 +313,59 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_color_dropper_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-color-dropper-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_color_dropper_481 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-color-dropper-481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_color_dropper_482 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-color-dropper-482", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_copy_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-copy-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_copy_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-copy-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_copy_501 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-copy-501", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,6 +383,26 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_cut_48__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cut-48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_cut_481 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cut-481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_forward_arrow_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-forward-arrow-30", resourceCulture);
@@ -303,9 +413,49 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_italic_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-italic-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_italic_52 {
             get {
                 object obj = ResourceManager.GetObject("icons8-italic-52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_list_is_empty_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-list-is-empty-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_paste_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-paste-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_paste_481 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-paste-481", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,6 +503,16 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_redo_242 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-redo-242", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_redo_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-redo-30", resourceCulture);
@@ -376,6 +536,56 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         internal static System.Drawing.Bitmap icons8_replace_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-replace-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_replace_48__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-replace-48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_replace_48__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-replace-48 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_48__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_481 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-481", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -426,6 +636,16 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         internal static System.Drawing.Bitmap icons8_text_color_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-text-color-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_text_color_48__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-text-color-48 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -516,6 +736,16 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         internal static System.Drawing.Bitmap icons8_undo_242 {
             get {
                 object obj = ResourceManager.GetObject("icons8-undo-242", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_undo_243 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-undo-243", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -696,6 +926,16 @@ namespace MiniWord_TrinhPhucHieu.Properties {
         internal static System.Drawing.Bitmap uUnderLine2 {
             get {
                 object obj = ResourceManager.GetObject("uUnderLine2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uUnderLine3 {
+            get {
+                object obj = ResourceManager.GetObject("uUnderLine3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

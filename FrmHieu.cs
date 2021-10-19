@@ -8,6 +8,7 @@ using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -70,11 +71,25 @@ namespace MiniWord_TrinhPhucHieu
         }
 
 
-
+        
         // Mở File
         private void tsmiOpen_Click(object sender, EventArgs e)
         {
-            
+            if (!ktTrangThai)
+            {
+                DialogResult tb = MessageBox.Show("Bạn có muốn lưu lại thay đổi không? ", "Thông báo", MessageBoxButtons.YesNoCancel);
+
+                switch (tb)
+                {
+                    case DialogResult.Cancel:
+                        break;
+                    case DialogResult.No:
+                        break;
+                    case DialogResult.Yes:    
+                        tsmiLuu.PerformClick();
+                        break;
+                }
+            }
             OpenFileDialog file = new OpenFileDialog();
             
             file.Filter = "Mở File (*.rtf)|*.rtf| (*.txt)|*.txt";
@@ -150,17 +165,25 @@ namespace MiniWord_TrinhPhucHieu
             string[] s = path.Split('\\');
             tslbDuongDan.Text = s[s.Length - 1];
         }
-      
-       
+
+
 
 
         // Màu
         private void tsbtnColor_Click(object sender, EventArgs e)
         {
-            ColorDialog color = new ColorDialog();
-            if(color.ShowDialog() == DialogResult.OK)
-            {     
-                rtxGhi.SelectionBackColor = color.Color;
+            try
+            {
+                ColorDialog color = new ColorDialog();
+                if (color.ShowDialog() == DialogResult.OK)
+                {
+                    rtxGhi.SelectionBackColor = color.Color;
+                    lbColorBack.BackColor = color.Color;
+                }
+            }
+            catch
+            {
+
             }
         }
 
@@ -168,11 +191,20 @@ namespace MiniWord_TrinhPhucHieu
         // Chữ
         private void tsbtnTextColor_Click(object sender, EventArgs e)
         {
-            ColorDialog color = new ColorDialog();
-            if (color.ShowDialog() == DialogResult.OK)
+            try
             {
-                rtxGhi.SelectionColor = color.Color;
-            } 
+                ColorDialog color = new ColorDialog();
+                if (color.ShowDialog() == DialogResult.OK)
+                {
+                    rtxGhi.SelectionColor = color.Color;
+                    tsbtnTextColor.ForeColor = rtxGhi.SelectionColor;
+                    lbColorText.BackColor = rtxGhi.SelectionColor;
+                }
+            }
+            catch
+            {
+                
+            }
         }
 
         // Cỡ Chữ click
@@ -185,7 +217,7 @@ namespace MiniWord_TrinhPhucHieu
         private void tscmbSize_SelectedIndexChanged(object sender, EventArgs e)
         {
             sizeText = float.Parse(tscmbSize.SelectedItem.ToString());
-            rtxGhi.SelectionFont = new Font(fontText, sizeText);
+            rtxGhi.SelectionFont = new Font(fontText, sizeText, (ktDam ? FontStyle.Bold : 0 | (ktNghieng ? FontStyle.Italic : 0) | (ktGachDuoi ? FontStyle.Underline : 0) | (ktGachGiua ? FontStyle.Strikeout : 0)));
         }
         //Mở ảnh
         private void tsbtnHinhAnh_Click(object sender, EventArgs e)
@@ -193,34 +225,43 @@ namespace MiniWord_TrinhPhucHieu
             OpenFileDialog Mo_Anh = new OpenFileDialog();
             Mo_Anh.Title = "Chọn Ảnh";
             Mo_Anh.Filter = "Hinh Anh|*.bmp;*.jpg;*.gif;*.png;*.tif";
-            
-            if (Mo_Anh.ShowDialog() == DialogResult.OK)
+            try
             {
-
-                string fileName = Mo_Anh.FileName;
-                if (fileName.EndsWith(".tif") || fileName.EndsWith(".png") || fileName.EndsWith(".bmp") || fileName.EndsWith(".gif")
-                    || fileName.EndsWith(".jpg"))
+                if (Mo_Anh.ShowDialog() == DialogResult.OK)
                 {
 
-
-                    Bitmap bitmap = new Bitmap(fileName);
-                    
-                   
-                    Clipboard.SetDataObject(bitmap);
-
-                    DataFormats.Format myFormat = DataFormats.GetFormat(DataFormats.Bitmap);
-
-                    if (rtxGhi.CanPaste(myFormat))
+                    string fileName = Mo_Anh.FileName;
+                    if (fileName.EndsWith(".tif") || fileName.EndsWith(".png") || fileName.EndsWith(".bmp") || fileName.EndsWith(".gif")
+                        || fileName.EndsWith(".jpg"))
                     {
-                        rtxGhi.Paste(myFormat);
+                        Clipboard.SetImage(Image.FromFile(fileName));
+                        rtxGhi.Paste();
+                        /*
+                        Bitmap bitmap = new Bitmap(fileName);
+
+
+                        Clipboard.SetDataObject(bitmap);
+
+                        DataFormats.Format myFormat = DataFormats.GetFormat(DataFormats.Bitmap);
+
+                        if (rtxGhi.CanPaste(myFormat))
+                        {
+                            rtxGhi.Paste(myFormat);
+                        }
+                        */
+                    }
+                    else
+                    {
+                        MessageBox.Show("Định Dạng Ảnh Không hợp lệ", "Lỗi Định Dạng");
+
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Định Dạng Ảnh Không hợp lệ", "Lỗi Định Dạng");
-                 
-                }
             }
+            catch
+            {
+
+            }
+            
         }
 
 
@@ -228,14 +269,11 @@ namespace MiniWord_TrinhPhucHieu
         private void tscmbFont_SelectedIndexChanged(object sender, EventArgs e)
         {
             fontText = tscmbFont.SelectedItem.ToString();
-            rtxGhi.SelectionFont = new Font(fontText,sizeText);
+            rtxGhi.SelectionFont = new Font(fontText,sizeText, (ktDam ? FontStyle.Bold : 0 | (ktNghieng ? FontStyle.Italic : 0) | (ktGachDuoi ? FontStyle.Underline : 0) | (ktGachGiua ? FontStyle.Strikeout : 0)));
         }
        
         private Hashtable s = new Hashtable();
-        private bool ktDam = false;
-        private bool ktNghieng = false;
-        private bool ktGachDuoi = false;
-        private bool ktGachGiua = false;
+
 
         /*
          * 
@@ -243,6 +281,11 @@ namespace MiniWord_TrinhPhucHieu
          * 
          * */
         // chọn kiểu chữ
+
+        private bool ktDam = false;
+        private bool ktNghieng = false;
+        private bool ktGachDuoi = false;
+        private bool ktGachGiua = false;
         private void tsbtnKieuChuClick(object sender, EventArgs e)
         {
             try
@@ -360,7 +403,7 @@ namespace MiniWord_TrinhPhucHieu
 
         private void rtxGhi_TextChanged(object sender, EventArgs e)
         {
-  
+            tslbTu.Text = "Số Từ: "+Regex.Matches(rtxGhi.Text, @"[\S]+").Count.ToString();
             if (rtxGhi.Text.Length > 0) ktTrangThai = false;
         }
 
@@ -369,40 +412,57 @@ namespace MiniWord_TrinhPhucHieu
             //MessageBox.Show(rtxGhi.Text[rtxGhi.SelectionStart - 1].ToString());
         }
 
-        
+
         // kiểm tra vị trí kiểu chữ
+
+        // doi mau chu
+      
+
+
+            // kiểm tra kiểu
         private void rtxGhi_SelectionChanged(object sender, EventArgs e)
         {
 
-
             if (rtxGhi.SelectionFont != null)
             {
+                tscmbFont.SelectedItem = rtxGhi.SelectionFont.Name;
+                tscmbSize.SelectedItem = rtxGhi.SelectionFont.Size+"";
+                tsbtnTextColor.ForeColor = rtxGhi.SelectionColor;
+                lbColorText.BackColor = rtxGhi.SelectionColor;
+
+                lbColorBack.BackColor = rtxGhi.SelectionBackColor;
                 tsbtnChuDam.BackColor = SystemColors.Control;
                 tsbtnChuNghieng.BackColor = SystemColors.Control;
                 tsbtnGachDuoi.BackColor = SystemColors.Control;
                 tsbtnGachGiua.BackColor = SystemColors.Control;
-
+                 ktDam = false;
+                 ktNghieng = false;
+                 ktGachDuoi = false;
+                 ktGachGiua = false;
                 if (rtxGhi.SelectionFont.Bold)
                 {
                     tsbtnChuDam.BackColor = SystemColors.GradientActiveCaption;
+                    ktDam = true;
                 }
                 
 
                 if (rtxGhi.SelectionFont.Italic)
                 {
                     tsbtnChuNghieng.BackColor = SystemColors.GradientActiveCaption;
-
+                    ktNghieng = true;
                 }
                
                 if (rtxGhi.SelectionFont.Underline)
                 {
                     tsbtnGachDuoi.BackColor = SystemColors.GradientActiveCaption;
+                    ktGachDuoi = true;
                 }
+
                 
                 if (rtxGhi.SelectionFont.Strikeout)
                 {
                     tsbtnGachGiua.BackColor = SystemColors.GradientActiveCaption;
-                    
+                    ktGachGiua = true;
                 }
                 
                 // căn lề
@@ -696,15 +756,45 @@ namespace MiniWord_TrinhPhucHieu
 
  
        
-       
+       private void ktDong()
+        {
+            if (!ktTrangThai)
+            {
+                DialogResult tb = MessageBox.Show("Bạn có muốn lưu lại thay đổi không? ", "Thông báo", MessageBoxButtons.YesNoCancel);
+
+                switch (tb)
+                {
+                    case DialogResult.Cancel:
+                        break;
+                    case DialogResult.No:
+                        break;
+                    case DialogResult.Yes:
+                        tsmiLuu.PerformClick();
+                        break;
+                }
+            }
+        }
         // mới 
         private void tsmiNew_Click(object sender, EventArgs e)
         {
+            
+            ktDong();
+            rtxGhi.Clear();
+            ktDam = false;
+            ktNghieng = false;
+            ktGachDuoi = false;
+            ktGachGiua = false;
+            tscmbFont.SelectedItem = "Times New Roman";
+            tscmbSize.SelectedItem = "11";
+            fontText = "Times New Roman";
+            sizeText = float.Parse(tscmbSize.SelectedItem.ToString());
+            
             rtxGhi.Visible = true;
             tscCongCu.Enabled = true;
-            rtxGhi.Text = "";
             rtxGhi.Visible = true;
+            ktTrangThai = true;
             giaTriMoi();
+            rtxGhi.SelectionFont = new Font(fontText, sizeText);
         }
 
         private void giaTriMoi()
@@ -716,6 +806,9 @@ namespace MiniWord_TrinhPhucHieu
         // đóng
         private void tsmiDong_Click(object sender, EventArgs e)
         {
+            ktDong();
+            ktTrangThai = true;
+            rtxGhi.Text = "";
             tscCongCu.Enabled = false;
             rtxGhi.Visible = false;
             giaTriMoi();
@@ -725,6 +818,7 @@ namespace MiniWord_TrinhPhucHieu
         // thoát 
         private void tsmiThoat_Click(object sender, EventArgs e)
         {
+            ktDong();
             this.Close();
         }
 
@@ -780,6 +874,40 @@ namespace MiniWord_TrinhPhucHieu
         }
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsbtnTangChu_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tsbtnDan_Click_1(object sender, EventArgs e)
+        {
+            rtxGhi.Paste();
+        }
+
+       
+
+   
+
+        private void boiDenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tsbtnChuDam.PerformClick();
+        }
+
+        private void boiDamToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tsbtnChuNghieng.PerformClick();
+        }
+
+        private void gachChanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tsbtnGachDuoi.PerformClick();
+        }
+
+        private void gachGiuaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
