@@ -18,25 +18,27 @@ namespace MiniWord_TrinhPhucHieu
     {
         public FrmHieu()
         {
-            
+
             InitializeComponent();
             chenEmoji();
+
+
             FontText();
             tscmbFont.SelectedItem = "Times New Roman";
             tscmbSize.SelectedItem = "11";
-   
+
         }
 
-        
+
         // thuộc tính 
 
         private float sizeText = 11;
         private string fontText = "Times New Roman";
-        public string curDuongDan= "New";
+        public string curDuongDan = "New";
         public bool curOpen = false;
         public bool curSave = false;
         public bool ktTrangThai = true;
-      
+
 
 
 
@@ -51,7 +53,7 @@ namespace MiniWord_TrinhPhucHieu
                 {
                     tscmbFont.Items.Add(f.Name);
                 }
-            }catch
+            } catch
             {
                 MessageBox.Show("Lỗi Phông chữ");
                 tscmbFont.SelectedIndex = 0;
@@ -62,7 +64,7 @@ namespace MiniWord_TrinhPhucHieu
 
         private void tscmbFont_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void FrmHieu_Load(object sender, EventArgs e)
@@ -71,7 +73,7 @@ namespace MiniWord_TrinhPhucHieu
         }
 
 
-        
+
         // Mở File
         private void tsmiOpen_Click(object sender, EventArgs e)
         {
@@ -85,13 +87,13 @@ namespace MiniWord_TrinhPhucHieu
                         break;
                     case DialogResult.No:
                         break;
-                    case DialogResult.Yes:    
+                    case DialogResult.Yes:
                         tsmiLuu.PerformClick();
                         break;
                 }
             }
             OpenFileDialog file = new OpenFileDialog();
-            
+
             file.Filter = "Mở File (*.rtf)|*.rtf| (*.txt)|*.txt";
             if (file.ShowDialog() == DialogResult.OK)
             {
@@ -104,6 +106,7 @@ namespace MiniWord_TrinhPhucHieu
                         if (!path.EndsWith(".txt"))
                         {
                             rtxGhi.LoadFile(path);
+
                             curDuongDan = path;
 
                         }
@@ -122,7 +125,7 @@ namespace MiniWord_TrinhPhucHieu
                     MessageBox.Show("Không hổ trợ định dạng file", "Thông báo");
                 }
             }
-   
+
 
         }
 
@@ -203,7 +206,7 @@ namespace MiniWord_TrinhPhucHieu
             }
             catch
             {
-                
+
             }
         }
 
@@ -216,9 +219,17 @@ namespace MiniWord_TrinhPhucHieu
         // cỡ chữ sau chọn
         private void tscmbSize_SelectedIndexChanged(object sender, EventArgs e)
         {
-            sizeText = float.Parse(tscmbSize.SelectedItem.ToString());
-            rtxGhi.SelectionFont = new Font(fontText, sizeText, (ktDam ? FontStyle.Bold : 0 | (ktNghieng ? FontStyle.Italic : 0) | (ktGachDuoi ? FontStyle.Underline : 0) | (ktGachGiua ? FontStyle.Strikeout : 0)));
-        }
+            try
+            {
+                sizeText = float.Parse(tscmbSize.SelectedItem.ToString());
+                rtxGhi.SelectionFont = new Font(fontText, sizeText, (ktDam ? FontStyle.Bold : 0 | (ktNghieng ? FontStyle.Italic : 0) | (ktGachDuoi ? FontStyle.Underline : 0) | (ktGachGiua ? FontStyle.Strikeout : 0)));
+
+            }
+            catch
+            {
+
+            }
+            }
         //Mở ảnh
         private void tsbtnHinhAnh_Click(object sender, EventArgs e)
         {
@@ -261,17 +272,25 @@ namespace MiniWord_TrinhPhucHieu
             {
 
             }
-            
+
         }
 
 
         // phông chữ
         private void tscmbFont_SelectedIndexChanged(object sender, EventArgs e)
         {
-            fontText = tscmbFont.SelectedItem.ToString();
-            rtxGhi.SelectionFont = new Font(fontText,sizeText, (ktDam ? FontStyle.Bold : 0 | (ktNghieng ? FontStyle.Italic : 0) | (ktGachDuoi ? FontStyle.Underline : 0) | (ktGachGiua ? FontStyle.Strikeout : 0)));
-        }
-       
+            try {
+
+                fontText = tscmbFont.SelectedItem.ToString();
+            
+                rtxGhi.SelectionFont = new Font(fontText, sizeText, (ktDam ? FontStyle.Bold : 0 | (ktNghieng ? FontStyle.Italic : 0) | (ktGachDuoi ? FontStyle.Underline : 0) | (ktGachGiua ? FontStyle.Strikeout : 0)));
+
+            }
+            catch
+            {
+
+            }
+       } 
         private Hashtable s = new Hashtable();
 
 
@@ -400,10 +419,11 @@ namespace MiniWord_TrinhPhucHieu
         {
             if (rtxGhi.SelectionLength > 0) rtxGhi.Copy();
         }
-
+     
         private void rtxGhi_TextChanged(object sender, EventArgs e)
         {
-            tslbTu.Text = "Số Từ: "+Regex.Matches(rtxGhi.Text, @"[\S]+").Count.ToString();
+
+            tslbTu.Text = "Số Từ: " + Regex.Matches(rtxGhi.Text, @"[\S]+").Count.ToString();
             if (rtxGhi.Text.Length > 0) ktTrangThai = false;
         }
 
@@ -422,14 +442,13 @@ namespace MiniWord_TrinhPhucHieu
             // kiểm tra kiểu
         private void rtxGhi_SelectionChanged(object sender, EventArgs e)
         {
-
+            
             if (rtxGhi.SelectionFont != null)
             {
                 tscmbFont.SelectedItem = rtxGhi.SelectionFont.Name;
-                tscmbSize.SelectedItem = rtxGhi.SelectionFont.Size+"";
+                tscmbSize.SelectedItem = rtxGhi.SelectionFont.Size + "";
                 tsbtnTextColor.ForeColor = rtxGhi.SelectionColor;
                 lbColorText.BackColor = rtxGhi.SelectionColor;
-
                 lbColorBack.BackColor = rtxGhi.SelectionBackColor;
                 tsbtnChuDam.BackColor = SystemColors.Control;
                 tsbtnChuNghieng.BackColor = SystemColors.Control;
@@ -516,30 +535,45 @@ namespace MiniWord_TrinhPhucHieu
 
         private void tsmnIn_Click(object sender, EventArgs e)
         {
-            if (prd.ShowDialog() == DialogResult.OK)
+            try
             {
-                pdc.Print();
+
+                if (prd.ShowDialog() == DialogResult.OK)
+                {
+                    pdc.Print();
+                }
+            }
+            catch
+            {
+
             }
         }
 
         private void pdc_BeginPrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
-            char[] param = { '\n' };
+            try
+            {
+                char[] param = { '\n' };
 
-            if (prd.PrinterSettings.PrintRange == PrintRange.Selection)
-            {
-                lines = rtxGhi.SelectedText.Split(param);
-            }
-            else
-            {
-                lines = rtxGhi.Text.Split(param);
-            }
+                if (prd.PrinterSettings.PrintRange == PrintRange.Selection)
+                {
+                    lines = rtxGhi.SelectedText.Split(param);
+                }
+                else
+                {
+                    lines = rtxGhi.Text.Split(param);
+                }
 
-            int i = 0;
-            char[] trimParam = { '\r' };
-            foreach (string s in lines)
+                int i = 0;
+                char[] trimParam = { '\r' };
+                foreach (string s in lines)
+                {
+                    lines[i++] = s.TrimEnd(trimParam);
+                }
+            }
+            catch
             {
-                lines[i++] = s.TrimEnd(trimParam);
+
             }
         }
 
@@ -549,25 +583,33 @@ namespace MiniWord_TrinhPhucHieu
         
         private void pdc_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            if (lines.Length <= 0) return;
-            int x = e.MarginBounds.Left;
-            int y = e.MarginBounds.Top;
-            Brush brush = new SolidBrush(rtxGhi.ForeColor);
-
-            while (linesPrinted < lines.Length)
+            try
             {
-                e.Graphics.DrawString(lines[linesPrinted++],
-                    rtxGhi.Font, brush, x, y);
-                y += 15;
-                if (y >= e.MarginBounds.Bottom)
-                {
-                    e.HasMorePages = true;
-                    return;
-                }
-            }
+                if (lines.Length <= 0) return;
+                int x = e.MarginBounds.Left;
+                int y = e.MarginBounds.Top;
+                Brush brush = new SolidBrush(rtxGhi.ForeColor);
 
-            linesPrinted = 0;
-            e.HasMorePages = false;
+                while (linesPrinted < lines.Length)
+                {
+                    e.Graphics.DrawString(lines[linesPrinted++],
+                        rtxGhi.Font, brush, x, y);
+                    y += 15;
+                    if (y >= e.MarginBounds.Bottom)
+                    {
+                        e.HasMorePages = true;
+                        return;
+                    }
+                }
+
+
+                linesPrinted = 0;
+                e.HasMorePages = false;
+            }
+            catch
+            {
+
+            }
         }
         public RichTextBox getRtxGhi()
         {
@@ -734,9 +776,9 @@ namespace MiniWord_TrinhPhucHieu
             if(lvEmoji.SelectedIndices.Count <= 0) return;
             if(lvEmoji.FocusedItem == null) return;
             id = lvEmoji.SelectedIndices[0];
-            if(id < 0) return;
-            Clipboard.SetImage(imgEmoji.Images[id]);
-            rtxGhi.Paste();
+            if(id < 0) return; 
+            Clipboard.SetImage(imgEmoji.Images[id]); // copy ảnh
+            rtxGhi.Paste(); // dán vào rtb
         }
 
         // Lưu

@@ -32,30 +32,76 @@ namespace MiniWord_TrinhPhucHieu
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHieu));
             this.cmsChuotPhai = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cms_tsmi_Undo = new System.Windows.Forms.ToolStripMenuItem();
+            this.cms_tsmi_Redo = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.cms_Tsmi_Copy = new System.Windows.Forms.ToolStripMenuItem();
+            this.cms_tsmi_Cat = new System.Windows.Forms.ToolStripMenuItem();
+            this.cms_tsmi_Dan = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiDong = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiLuu = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSave = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiXemIn = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmnIn = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiThoat = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsThanhCongCu = new System.Windows.Forms.MenuStrip();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiUndo = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRedo = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiCopy = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiCat = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiDan = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiTimKiem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTimKiemThayThe = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiPhongTo = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiThuNho = new System.Windows.Forms.ToolStripMenuItem();
+            this.mauChuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.boiDenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.boiDamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gachChanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gachGiuaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tscCongCu = new System.Windows.Forms.ToolStripContainer();
             this.lbColorBack = new System.Windows.Forms.Label();
             this.lbColorText = new System.Windows.Forms.Label();
             this.toolStrip5 = new System.Windows.Forms.ToolStrip();
+            this.tsbtnDan = new System.Windows.Forms.ToolStripButton();
             this.toolStrip8 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbtnThayThe = new System.Windows.Forms.ToolStripButton();
             this.ts = new System.Windows.Forms.ToolStrip();
+            this.tsbtnCopy = new System.Windows.Forms.ToolStripButton();
             this.toolStrip3 = new System.Windows.Forms.ToolStrip();
+            this.tsbtnEmoji = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnHinhAnh = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnNgayvaGio = new System.Windows.Forms.ToolStripButton();
             this.toolStrip6 = new System.Windows.Forms.ToolStrip();
+            this.tsbtnCut = new System.Windows.Forms.ToolStripButton();
             this.toolStrip4 = new System.Windows.Forms.ToolStrip();
+            this.tsbtnCanTrai = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnCanGiua = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnCanPhai = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.tsbtnChuDam = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnChuNghieng = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnGachDuoi = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnGachGiua = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnTextColor = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnColor = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tscmbFont = new System.Windows.Forms.ToolStripComboBox();
             this.tscmbSize = new System.Windows.Forms.ToolStripComboBox();
+            this.tsbtnTangChu = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnGiamChu = new System.Windows.Forms.ToolStripButton();
             this.rtxGhi = new System.Windows.Forms.RichTextBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.prd = new System.Windows.Forms.PrintDialog();
@@ -68,60 +114,14 @@ namespace MiniWord_TrinhPhucHieu
             this.lvEmoji = new System.Windows.Forms.ListView();
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.toolStrip7 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.tslbTu = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.tslbDuongDan = new System.Windows.Forms.ToolStripLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.cms_tsmi_Undo = new System.Windows.Forms.ToolStripMenuItem();
-            this.cms_tsmi_Redo = new System.Windows.Forms.ToolStripMenuItem();
-            this.cms_Tsmi_Copy = new System.Windows.Forms.ToolStripMenuItem();
-            this.cms_tsmi_Cat = new System.Windows.Forms.ToolStripMenuItem();
-            this.cms_tsmi_Dan = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsbtnDan = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnThayThe = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnCopy = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnEmoji = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnHinhAnh = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnNgayvaGio = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnCut = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnCanTrai = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnCanGiua = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnCanPhai = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnChuDam = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnChuNghieng = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnGachDuoi = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnGachGiua = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnTextColor = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnColor = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnTangChu = new System.Windows.Forms.ToolStripButton();
-            this.tsbtnGiamChu = new System.Windows.Forms.ToolStripButton();
-            this.tsmiNew = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiOpen = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiDong = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiLuu = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiSave = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiXemIn = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmnIn = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiThoat = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiUndo = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiRedo = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiCopy = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiCat = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiDan = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiTimKiem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiTimKiemThayThe = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiPhongTo = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiThuNho = new System.Windows.Forms.ToolStripMenuItem();
-            this.mauChuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.boiDenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.boiDamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gachChanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gachGiuaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsChuotPhai.SuspendLayout();
             this.mnsThanhCongCu.SuspendLayout();
             this.tscCongCu.ContentPanel.SuspendLayout();
@@ -151,10 +151,50 @@ namespace MiniWord_TrinhPhucHieu
             this.cmsChuotPhai.Name = "cmsChuotPhai";
             this.cmsChuotPhai.Size = new System.Drawing.Size(146, 140);
             // 
+            // cms_tsmi_Undo
+            // 
+            this.cms_tsmi_Undo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_undo_243;
+            this.cms_tsmi_Undo.Name = "cms_tsmi_Undo";
+            this.cms_tsmi_Undo.Size = new System.Drawing.Size(145, 26);
+            this.cms_tsmi_Undo.Text = "Undo";
+            this.cms_tsmi_Undo.Click += new System.EventHandler(this.cms_tsmi_Undo_Click);
+            // 
+            // cms_tsmi_Redo
+            // 
+            this.cms_tsmi_Redo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_redo_242;
+            this.cms_tsmi_Redo.Name = "cms_tsmi_Redo";
+            this.cms_tsmi_Redo.Size = new System.Drawing.Size(145, 26);
+            this.cms_tsmi_Redo.Text = "Redo";
+            this.cms_tsmi_Redo.Click += new System.EventHandler(this.cms_tsmi_Redo_Click);
+            // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(142, 6);
+            // 
+            // cms_Tsmi_Copy
+            // 
+            this.cms_Tsmi_Copy.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_copy_501;
+            this.cms_Tsmi_Copy.Name = "cms_Tsmi_Copy";
+            this.cms_Tsmi_Copy.Size = new System.Drawing.Size(145, 26);
+            this.cms_Tsmi_Copy.Text = "Sao Chép";
+            this.cms_Tsmi_Copy.Click += new System.EventHandler(this.cms_tsmi_Copy_Click);
+            // 
+            // cms_tsmi_Cat
+            // 
+            this.cms_tsmi_Cat.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_cut_481;
+            this.cms_tsmi_Cat.Name = "cms_tsmi_Cat";
+            this.cms_tsmi_Cat.Size = new System.Drawing.Size(145, 26);
+            this.cms_tsmi_Cat.Text = "Cắt";
+            this.cms_tsmi_Cat.Click += new System.EventHandler(this.cms_tsmi_Cat_Click);
+            // 
+            // cms_tsmi_Dan
+            // 
+            this.cms_tsmi_Dan.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_paste_481;
+            this.cms_tsmi_Dan.Name = "cms_tsmi_Dan";
+            this.cms_tsmi_Dan.Size = new System.Drawing.Size(145, 26);
+            this.cms_tsmi_Dan.Text = "Dán";
+            this.cms_tsmi_Dan.Click += new System.EventHandler(this.cms_tsmi_Dan_Click);
             // 
             // fileToolStripMenuItem
             // 
@@ -175,20 +215,89 @@ namespace MiniWord_TrinhPhucHieu
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(57, 29);
             this.fileToolStripMenuItem.Text = "Tệp";
             // 
+            // tsmiNew
+            // 
+            this.tsmiNew.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.newFile;
+            this.tsmiNew.Name = "tsmiNew";
+            this.tsmiNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.tsmiNew.Size = new System.Drawing.Size(224, 30);
+            this.tsmiNew.Text = "Mới";
+            this.tsmiNew.Click += new System.EventHandler(this.tsmiNew_Click);
+            // 
+            // tsmiOpen
+            // 
+            this.tsmiOpen.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.openFile;
+            this.tsmiOpen.Name = "tsmiOpen";
+            this.tsmiOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.tsmiOpen.Size = new System.Drawing.Size(224, 30);
+            this.tsmiOpen.Text = "Mở";
+            this.tsmiOpen.Click += new System.EventHandler(this.tsmiOpen_Click);
+            // 
+            // tsmiDong
+            // 
+            this.tsmiDong.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_close_tab_48;
+            this.tsmiDong.Name = "tsmiDong";
+            this.tsmiDong.Size = new System.Drawing.Size(224, 30);
+            this.tsmiDong.Text = "Đóng";
+            this.tsmiDong.Click += new System.EventHandler(this.tsmiDong_Click);
+            // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(197, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(221, 6);
+            // 
+            // tsmiLuu
+            // 
+            this.tsmiLuu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tsmiLuu.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.saveFile2;
+            this.tsmiLuu.Name = "tsmiLuu";
+            this.tsmiLuu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.tsmiLuu.Size = new System.Drawing.Size(224, 30);
+            this.tsmiLuu.Text = "Lưu";
+            this.tsmiLuu.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // tsmiSave
+            // 
+            this.tsmiSave.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.saveAs;
+            this.tsmiSave.Name = "tsmiSave";
+            this.tsmiSave.Size = new System.Drawing.Size(224, 30);
+            this.tsmiSave.Text = "Lưu Mới";
+            this.tsmiSave.Click += new System.EventHandler(this.tsmiSave_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(197, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(221, 6);
+            // 
+            // tsmiXemIn
+            // 
+            this.tsmiXemIn.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_list_is_empty_48;
+            this.tsmiXemIn.Name = "tsmiXemIn";
+            this.tsmiXemIn.Size = new System.Drawing.Size(224, 30);
+            this.tsmiXemIn.Text = "Xem In...";
+            this.tsmiXemIn.Click += new System.EventHandler(this.tsmiXemIn_Click);
+            // 
+            // tsmnIn
+            // 
+            this.tsmnIn.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.printFile;
+            this.tsmnIn.Name = "tsmnIn";
+            this.tsmnIn.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.tsmnIn.Size = new System.Drawing.Size(224, 30);
+            this.tsmnIn.Text = "In";
+            this.tsmnIn.Click += new System.EventHandler(this.tsmnIn_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(197, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(221, 6);
+            // 
+            // tsmiThoat
+            // 
+            this.tsmiThoat.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_close_window_502;
+            this.tsmiThoat.Name = "tsmiThoat";
+            this.tsmiThoat.Size = new System.Drawing.Size(224, 30);
+            this.tsmiThoat.Text = "Thoát";
+            this.tsmiThoat.Click += new System.EventHandler(this.tsmiThoat_Click);
             // 
             // mnsThanhCongCu
             // 
@@ -196,8 +305,8 @@ namespace MiniWord_TrinhPhucHieu
             this.mnsThanhCongCu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnsThanhCongCu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.viewToolStripMenuItem,
             this.editToolStripMenuItem,
+            this.viewToolStripMenuItem,
             this.mauChuToolStripMenuItem});
             this.mnsThanhCongCu.Location = new System.Drawing.Point(0, 34);
             this.mnsThanhCongCu.Name = "mnsThanhCongCu";
@@ -222,15 +331,78 @@ namespace MiniWord_TrinhPhucHieu
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
             this.viewToolStripMenuItem.Text = "Chi Tiết";
             // 
+            // tsmiUndo
+            // 
+            this.tsmiUndo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_undo_242;
+            this.tsmiUndo.Name = "tsmiUndo";
+            this.tsmiUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
+            this.tsmiUndo.Size = new System.Drawing.Size(347, 30);
+            this.tsmiUndo.Text = "Undo";
+            this.tsmiUndo.Click += new System.EventHandler(this.tsmiUndo_Click);
+            // 
+            // tsmiRedo
+            // 
+            this.tsmiRedo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_redo_241;
+            this.tsmiRedo.Name = "tsmiRedo";
+            this.tsmiRedo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
+            this.tsmiRedo.Size = new System.Drawing.Size(347, 30);
+            this.tsmiRedo.Text = "Redo";
+            this.tsmiRedo.Click += new System.EventHandler(this.tsmiRedo_Click);
+            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(344, 6);
             // 
+            // tsmiCopy
+            // 
+            this.tsmiCopy.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_copy_48;
+            this.tsmiCopy.Name = "tsmiCopy";
+            this.tsmiCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.tsmiCopy.Size = new System.Drawing.Size(347, 30);
+            this.tsmiCopy.Text = "Sao Chép";
+            this.tsmiCopy.Click += new System.EventHandler(this.tsmiCopy_Click);
+            // 
+            // tsmiCat
+            // 
+            this.tsmiCat.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_cut_48__1_;
+            this.tsmiCat.Name = "tsmiCat";
+            this.tsmiCat.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.tsmiCat.Size = new System.Drawing.Size(347, 30);
+            this.tsmiCat.Text = "Cắt";
+            this.tsmiCat.Click += new System.EventHandler(this.tsmiCat_Click);
+            // 
+            // tsmiDan
+            // 
+            this.tsmiDan.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_paste_48;
+            this.tsmiDan.Name = "tsmiDan";
+            this.tsmiDan.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.tsmiDan.Size = new System.Drawing.Size(347, 30);
+            this.tsmiDan.Text = "Dán";
+            this.tsmiDan.Click += new System.EventHandler(this.tsmiDan_Click);
+            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(344, 6);
+            // 
+            // tsmiTimKiem
+            // 
+            this.tsmiTimKiem.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_search_48;
+            this.tsmiTimKiem.Name = "tsmiTimKiem";
+            this.tsmiTimKiem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.tsmiTimKiem.Size = new System.Drawing.Size(347, 30);
+            this.tsmiTimKiem.Text = "Tìm Kiếm";
+            this.tsmiTimKiem.Click += new System.EventHandler(this.tsmiTimKiem_Click);
+            // 
+            // tsmiTimKiemThayThe
+            // 
+            this.tsmiTimKiemThayThe.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_replace_48__1_;
+            this.tsmiTimKiemThayThe.Name = "tsmiTimKiemThayThe";
+            this.tsmiTimKiemThayThe.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
+            this.tsmiTimKiemThayThe.Size = new System.Drawing.Size(347, 30);
+            this.tsmiTimKiemThayThe.Text = "Tìm Kiếm và Thay Thế";
+            this.tsmiTimKiemThayThe.Click += new System.EventHandler(this.tsmiTimKiemThayThe_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -242,6 +414,67 @@ namespace MiniWord_TrinhPhucHieu
             this.editToolStripMenuItem.Size = new System.Drawing.Size(63, 29);
             this.editToolStripMenuItem.Text = "Xem";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            // 
+            // tsmiPhongTo
+            // 
+            this.tsmiPhongTo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_zoom_in_501;
+            this.tsmiPhongTo.Name = "tsmiPhongTo";
+            this.tsmiPhongTo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
+            this.tsmiPhongTo.Size = new System.Drawing.Size(242, 30);
+            this.tsmiPhongTo.Text = "Phóng To";
+            this.tsmiPhongTo.Click += new System.EventHandler(this.tsmiPhongTo_Click);
+            // 
+            // tsmiThuNho
+            // 
+            this.tsmiThuNho.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_zoom_out_50;
+            this.tsmiThuNho.Name = "tsmiThuNho";
+            this.tsmiThuNho.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
+            this.tsmiThuNho.Size = new System.Drawing.Size(242, 30);
+            this.tsmiThuNho.Text = "Thu nhỏ";
+            this.tsmiThuNho.Click += new System.EventHandler(this.tsmiThuNho_Click);
+            // 
+            // mauChuToolStripMenuItem
+            // 
+            this.mauChuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.boiDenToolStripMenuItem,
+            this.boiDamToolStripMenuItem,
+            this.gachChanToolStripMenuItem,
+            this.gachGiuaToolStripMenuItem});
+            this.mauChuToolStripMenuItem.Name = "mauChuToolStripMenuItem";
+            this.mauChuToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
+            this.mauChuToolStripMenuItem.Text = "MauChu";
+            this.mauChuToolStripMenuItem.Visible = false;
+            // 
+            // boiDenToolStripMenuItem
+            // 
+            this.boiDenToolStripMenuItem.Name = "boiDenToolStripMenuItem";
+            this.boiDenToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
+            this.boiDenToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.boiDenToolStripMenuItem.Text = "BoiDen";
+            this.boiDenToolStripMenuItem.Click += new System.EventHandler(this.boiDenToolStripMenuItem_Click);
+            // 
+            // boiDamToolStripMenuItem
+            // 
+            this.boiDamToolStripMenuItem.Name = "boiDamToolStripMenuItem";
+            this.boiDamToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
+            this.boiDamToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.boiDamToolStripMenuItem.Text = "Nghieng";
+            this.boiDamToolStripMenuItem.Click += new System.EventHandler(this.boiDamToolStripMenuItem_Click);
+            // 
+            // gachChanToolStripMenuItem
+            // 
+            this.gachChanToolStripMenuItem.Name = "gachChanToolStripMenuItem";
+            this.gachChanToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
+            this.gachChanToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.gachChanToolStripMenuItem.Text = "GachChan";
+            this.gachChanToolStripMenuItem.Click += new System.EventHandler(this.gachChanToolStripMenuItem_Click);
+            // 
+            // gachGiuaToolStripMenuItem
+            // 
+            this.gachGiuaToolStripMenuItem.Name = "gachGiuaToolStripMenuItem";
+            this.gachGiuaToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.gachGiuaToolStripMenuItem.Text = "GachGiua";
+            this.gachGiuaToolStripMenuItem.Click += new System.EventHandler(this.gachGiuaToolStripMenuItem_Click);
             // 
             // tscCongCu
             // 
@@ -295,6 +528,20 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip5.Size = new System.Drawing.Size(135, 127);
             this.toolStrip5.TabIndex = 15;
             // 
+            // tsbtnDan
+            // 
+            this.tsbtnDan.AutoSize = false;
+            this.tsbtnDan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnDan.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_paste_80;
+            this.tsbtnDan.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbtnDan.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnDan.Name = "tsbtnDan";
+            this.tsbtnDan.Size = new System.Drawing.Size(80, 100);
+            this.tsbtnDan.Text = "Dán";
+            this.tsbtnDan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbtnDan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbtnDan.Click += new System.EventHandler(this.tsbtnDan_Click_1);
+            // 
             // toolStrip8
             // 
             this.toolStrip8.AutoSize = false;
@@ -310,10 +557,43 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip8.TabIndex = 9;
             this.toolStrip8.Text = "toolStrip8";
             // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.AutoSize = false;
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton3.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_search_48__1_;
+            this.toolStripButton3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(50, 50);
+            this.toolStripButton3.Text = "Tìm Kiếm";
+            this.toolStripButton3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.toolStripButton3.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            this.toolStripButton3.Click += new System.EventHandler(this.tsbtnTimKiem_Click);
+            // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
             this.toolStripSeparator6.Size = new System.Drawing.Size(6, 59);
+            // 
+            // tsbtnThayThe
+            // 
+            this.tsbtnThayThe.AutoSize = false;
+            this.tsbtnThayThe.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnThayThe.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnThayThe.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_replace_48__1_1;
+            this.tsbtnThayThe.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tsbtnThayThe.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbtnThayThe.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnThayThe.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
+            this.tsbtnThayThe.Name = "tsbtnThayThe";
+            this.tsbtnThayThe.Size = new System.Drawing.Size(50, 50);
+            this.tsbtnThayThe.Text = "Thay Thế";
+            this.tsbtnThayThe.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.tsbtnThayThe.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            this.tsbtnThayThe.Click += new System.EventHandler(this.tsbtnThayThe_Click);
             // 
             // ts
             // 
@@ -330,6 +610,19 @@ namespace MiniWord_TrinhPhucHieu
             this.ts.Size = new System.Drawing.Size(135, 65);
             this.ts.TabIndex = 8;
             // 
+            // tsbtnCopy
+            // 
+            this.tsbtnCopy.AutoSize = false;
+            this.tsbtnCopy.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnCopy.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_copy_50;
+            this.tsbtnCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnCopy.Margin = new System.Windows.Forms.Padding(0);
+            this.tsbtnCopy.Name = "tsbtnCopy";
+            this.tsbtnCopy.Size = new System.Drawing.Size(86, 60);
+            this.tsbtnCopy.Text = "Copy";
+            this.tsbtnCopy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtnCopy.Click += new System.EventHandler(this.tsbtnCopy_Click);
+            // 
             // toolStrip3
             // 
             this.toolStrip3.AutoSize = false;
@@ -344,6 +637,54 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip3.Name = "toolStrip3";
             this.toolStrip3.Size = new System.Drawing.Size(453, 131);
             this.toolStrip3.TabIndex = 5;
+            // 
+            // tsbtnEmoji
+            // 
+            this.tsbtnEmoji.AutoSize = false;
+            this.tsbtnEmoji.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold);
+            this.tsbtnEmoji.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_anime_emoji_80;
+            this.tsbtnEmoji.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbtnEmoji.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnEmoji.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
+            this.tsbtnEmoji.Name = "tsbtnEmoji";
+            this.tsbtnEmoji.Size = new System.Drawing.Size(100, 100);
+            this.tsbtnEmoji.Text = "Emoji";
+            this.tsbtnEmoji.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbtnEmoji.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbtnEmoji.Click += new System.EventHandler(this.tsbtnEmoji_Click);
+            // 
+            // tsbtnHinhAnh
+            // 
+            this.tsbtnHinhAnh.AutoSize = false;
+            this.tsbtnHinhAnh.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnHinhAnh.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tsbtnHinhAnh.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_add_image_80;
+            this.tsbtnHinhAnh.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbtnHinhAnh.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnHinhAnh.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
+            this.tsbtnHinhAnh.Name = "tsbtnHinhAnh";
+            this.tsbtnHinhAnh.Size = new System.Drawing.Size(100, 100);
+            this.tsbtnHinhAnh.Text = "Ảnh";
+            this.tsbtnHinhAnh.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tsbtnHinhAnh.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            this.tsbtnHinhAnh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbtnHinhAnh.Click += new System.EventHandler(this.tsbtnHinhAnh_Click);
+            // 
+            // tsbtnNgayvaGio
+            // 
+            this.tsbtnNgayvaGio.AutoSize = false;
+            this.tsbtnNgayvaGio.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnNgayvaGio.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnNgayvaGio.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_time_limit_80;
+            this.tsbtnNgayvaGio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbtnNgayvaGio.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnNgayvaGio.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
+            this.tsbtnNgayvaGio.Name = "tsbtnNgayvaGio";
+            this.tsbtnNgayvaGio.Size = new System.Drawing.Size(100, 100);
+            this.tsbtnNgayvaGio.Text = "Ngày và Giờ";
+            this.tsbtnNgayvaGio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbtnNgayvaGio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbtnNgayvaGio.Click += new System.EventHandler(this.tsbtnNgayvaGio_Click);
             // 
             // toolStrip6
             // 
@@ -361,6 +702,19 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip6.TabIndex = 7;
             this.toolStrip6.Text = "Cut";
             // 
+            // tsbtnCut
+            // 
+            this.tsbtnCut.AutoSize = false;
+            this.tsbtnCut.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnCut.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_cut_48;
+            this.tsbtnCut.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnCut.Margin = new System.Windows.Forms.Padding(0);
+            this.tsbtnCut.Name = "tsbtnCut";
+            this.tsbtnCut.Size = new System.Drawing.Size(86, 60);
+            this.tsbtnCut.Text = "Cắt";
+            this.tsbtnCut.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tsbtnCut.Click += new System.EventHandler(this.tsbtnCut_Click);
+            // 
             // toolStrip4
             // 
             this.toolStrip4.AutoSize = false;
@@ -375,6 +729,40 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip4.Size = new System.Drawing.Size(178, 59);
             this.toolStrip4.TabIndex = 6;
             this.toolStrip4.Text = "toolStrip4";
+            // 
+            // tsbtnCanTrai
+            // 
+            this.tsbtnCanTrai.AutoSize = false;
+            this.tsbtnCanTrai.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnCanTrai.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnCanTrai.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_align_left_50;
+            this.tsbtnCanTrai.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnCanTrai.Name = "tsbtnCanTrai";
+            this.tsbtnCanTrai.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnCanTrai.Text = "Căn Trái";
+            this.tsbtnCanTrai.Click += new System.EventHandler(this.tsbtnCanChu_Click);
+            // 
+            // tsbtnCanGiua
+            // 
+            this.tsbtnCanGiua.AutoSize = false;
+            this.tsbtnCanGiua.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnCanGiua.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_align_justify_50;
+            this.tsbtnCanGiua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnCanGiua.Name = "tsbtnCanGiua";
+            this.tsbtnCanGiua.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnCanGiua.Text = "Căn Giữa";
+            this.tsbtnCanGiua.Click += new System.EventHandler(this.tsbtnCanChu_Click);
+            // 
+            // tsbtnCanPhai
+            // 
+            this.tsbtnCanPhai.AutoSize = false;
+            this.tsbtnCanPhai.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnCanPhai.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_align_right_50;
+            this.tsbtnCanPhai.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnCanPhai.Name = "tsbtnCanPhai";
+            this.tsbtnCanPhai.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnCanPhai.Text = "Căn Phải";
+            this.tsbtnCanPhai.Click += new System.EventHandler(this.tsbtnCanChu_Click);
             // 
             // toolStrip2
             // 
@@ -395,6 +783,85 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip2.Size = new System.Drawing.Size(406, 59);
             this.toolStrip2.TabIndex = 2;
             this.toolStrip2.Text = "toolStrip2";
+            // 
+            // tsbtnChuDam
+            // 
+            this.tsbtnChuDam.AutoSize = false;
+            this.tsbtnChuDam.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnChuDam.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tsbtnChuDam.Font = new System.Drawing.Font(".VnTime", 16.2F, System.Drawing.FontStyle.Bold);
+            this.tsbtnChuDam.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.Bold1;
+            this.tsbtnChuDam.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnChuDam.Name = "tsbtnChuDam";
+            this.tsbtnChuDam.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnChuDam.Text = "B";
+            this.tsbtnChuDam.ToolTipText = "Đậm";
+            this.tsbtnChuDam.Click += new System.EventHandler(this.tsbtnKieuChuClick);
+            // 
+            // tsbtnChuNghieng
+            // 
+            this.tsbtnChuNghieng.AutoSize = false;
+            this.tsbtnChuNghieng.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tsbtnChuNghieng.Font = new System.Drawing.Font(".VnTime", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnChuNghieng.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_italic_52;
+            this.tsbtnChuNghieng.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnChuNghieng.Name = "tsbtnChuNghieng";
+            this.tsbtnChuNghieng.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnChuNghieng.Text = "I";
+            this.tsbtnChuNghieng.ToolTipText = "Nghiêng";
+            this.tsbtnChuNghieng.Click += new System.EventHandler(this.tsbtnKieuChuClick);
+            // 
+            // tsbtnGachDuoi
+            // 
+            this.tsbtnGachDuoi.AutoSize = false;
+            this.tsbtnGachDuoi.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tsbtnGachDuoi.Font = new System.Drawing.Font(".VnTimeH", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnGachDuoi.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_underline_501;
+            this.tsbtnGachDuoi.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnGachDuoi.Name = "tsbtnGachDuoi";
+            this.tsbtnGachDuoi.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnGachDuoi.Text = "U";
+            this.tsbtnGachDuoi.ToolTipText = "Gạch Dưới";
+            this.tsbtnGachDuoi.Click += new System.EventHandler(this.tsbtnKieuChuClick);
+            // 
+            // tsbtnGachGiua
+            // 
+            this.tsbtnGachGiua.AutoSize = false;
+            this.tsbtnGachGiua.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnGachGiua.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_strikethrough_60;
+            this.tsbtnGachGiua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnGachGiua.Name = "tsbtnGachGiua";
+            this.tsbtnGachGiua.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnGachGiua.Text = "Strike Through";
+            this.tsbtnGachGiua.ToolTipText = "Gạch Giữa";
+            this.tsbtnGachGiua.Click += new System.EventHandler(this.tsbtnKieuChuClick);
+            // 
+            // tsbtnTextColor
+            // 
+            this.tsbtnTextColor.AutoSize = false;
+            this.tsbtnTextColor.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnTextColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tsbtnTextColor.Font = new System.Drawing.Font(".VnTime", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsbtnTextColor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tsbtnTextColor.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_a_26;
+            this.tsbtnTextColor.ImageTransparentColor = System.Drawing.Color.White;
+            this.tsbtnTextColor.Name = "tsbtnTextColor";
+            this.tsbtnTextColor.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnTextColor.Text = "A";
+            this.tsbtnTextColor.ToolTipText = "Màu Chữ";
+            this.tsbtnTextColor.Click += new System.EventHandler(this.tsbtnTextColor_Click);
+            // 
+            // tsbtnColor
+            // 
+            this.tsbtnColor.AutoSize = false;
+            this.tsbtnColor.BackColor = System.Drawing.SystemColors.Control;
+            this.tsbtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnColor.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_color_dropper_482;
+            this.tsbtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnColor.Name = "tsbtnColor";
+            this.tsbtnColor.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnColor.Text = "Bôi Màu Chữ";
+            this.tsbtnColor.Click += new System.EventHandler(this.tsbtnColor_Click);
             // 
             // toolStrip1
             // 
@@ -419,6 +886,7 @@ namespace MiniWord_TrinhPhucHieu
             this.tscmbFont.AutoSize = false;
             this.tscmbFont.DropDownHeight = 250;
             this.tscmbFont.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tscmbFont.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tscmbFont.IntegralHeight = false;
             this.tscmbFont.Name = "tscmbFont";
             this.tscmbFont.Size = new System.Drawing.Size(210, 28);
@@ -431,6 +899,7 @@ namespace MiniWord_TrinhPhucHieu
             this.tscmbSize.AutoSize = false;
             this.tscmbSize.DropDownHeight = 250;
             this.tscmbSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tscmbSize.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tscmbSize.IntegralHeight = false;
             this.tscmbSize.Items.AddRange(new object[] {
             "6",
@@ -505,6 +974,30 @@ namespace MiniWord_TrinhPhucHieu
             this.tscmbSize.ToolTipText = "Cỡ Chữ";
             this.tscmbSize.SelectedIndexChanged += new System.EventHandler(this.tscmbSize_SelectedIndexChanged);
             this.tscmbSize.Click += new System.EventHandler(this.tscmbSize_Click);
+            // 
+            // tsbtnTangChu
+            // 
+            this.tsbtnTangChu.AutoSize = false;
+            this.tsbtnTangChu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnTangChu.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.aCrease2;
+            this.tsbtnTangChu.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnTangChu.Name = "tsbtnTangChu";
+            this.tsbtnTangChu.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnTangChu.Text = "Tăng Cỡ Chữ";
+            this.tsbtnTangChu.Click += new System.EventHandler(this.tsbtnTangGiamChu_Click);
+            this.tsbtnTangChu.MouseHover += new System.EventHandler(this.tsbtnTangChu_MouseHover);
+            // 
+            // tsbtnGiamChu
+            // 
+            this.tsbtnGiamChu.AutoSize = false;
+            this.tsbtnGiamChu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnGiamChu.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.aDecrease;
+            this.tsbtnGiamChu.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnGiamChu.Name = "tsbtnGiamChu";
+            this.tsbtnGiamChu.Size = new System.Drawing.Size(40, 40);
+            this.tsbtnGiamChu.Text = "Giảm Cỡ Chữ";
+            this.tsbtnGiamChu.Click += new System.EventHandler(this.tsbtnTangGiamChu_Click);
+            this.tsbtnGiamChu.MouseHover += new System.EventHandler(this.tsbtnTangChu_MouseHover);
             // 
             // rtxGhi
             // 
@@ -596,6 +1089,28 @@ namespace MiniWord_TrinhPhucHieu
             this.toolStrip7.TabIndex = 18;
             this.toolStrip7.Text = "toolStrip7";
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.AutoSize = false;
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_undo_30__1_1;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(48, 25);
+            this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.AutoSize = false;
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_redo_301;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(48, 25);
+            this.toolStripButton2.Text = "toolStripButton2";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.AutoSize = false;
@@ -645,515 +1160,6 @@ namespace MiniWord_TrinhPhucHieu
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 5);
             this.label1.TabIndex = 17;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.AutoSize = false;
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_undo_30__1_1;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(48, 25);
-            this.toolStripButton1.Text = "toolStripButton1";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.AutoSize = false;
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_redo_301;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(48, 25);
-            this.toolStripButton2.Text = "toolStripButton2";
-            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
-            // 
-            // cms_tsmi_Undo
-            // 
-            this.cms_tsmi_Undo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_undo_243;
-            this.cms_tsmi_Undo.Name = "cms_tsmi_Undo";
-            this.cms_tsmi_Undo.Size = new System.Drawing.Size(145, 26);
-            this.cms_tsmi_Undo.Text = "Undo";
-            this.cms_tsmi_Undo.Click += new System.EventHandler(this.cms_tsmi_Undo_Click);
-            // 
-            // cms_tsmi_Redo
-            // 
-            this.cms_tsmi_Redo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_redo_242;
-            this.cms_tsmi_Redo.Name = "cms_tsmi_Redo";
-            this.cms_tsmi_Redo.Size = new System.Drawing.Size(145, 26);
-            this.cms_tsmi_Redo.Text = "Redo";
-            this.cms_tsmi_Redo.Click += new System.EventHandler(this.cms_tsmi_Redo_Click);
-            // 
-            // cms_Tsmi_Copy
-            // 
-            this.cms_Tsmi_Copy.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_copy_501;
-            this.cms_Tsmi_Copy.Name = "cms_Tsmi_Copy";
-            this.cms_Tsmi_Copy.Size = new System.Drawing.Size(145, 26);
-            this.cms_Tsmi_Copy.Text = "Sao Chép";
-            this.cms_Tsmi_Copy.Click += new System.EventHandler(this.cms_tsmi_Copy_Click);
-            // 
-            // cms_tsmi_Cat
-            // 
-            this.cms_tsmi_Cat.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_cut_481;
-            this.cms_tsmi_Cat.Name = "cms_tsmi_Cat";
-            this.cms_tsmi_Cat.Size = new System.Drawing.Size(145, 26);
-            this.cms_tsmi_Cat.Text = "Cắt";
-            this.cms_tsmi_Cat.Click += new System.EventHandler(this.cms_tsmi_Cat_Click);
-            // 
-            // cms_tsmi_Dan
-            // 
-            this.cms_tsmi_Dan.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_paste_481;
-            this.cms_tsmi_Dan.Name = "cms_tsmi_Dan";
-            this.cms_tsmi_Dan.Size = new System.Drawing.Size(145, 26);
-            this.cms_tsmi_Dan.Text = "Dán";
-            this.cms_tsmi_Dan.Click += new System.EventHandler(this.cms_tsmi_Dan_Click);
-            // 
-            // tsbtnDan
-            // 
-            this.tsbtnDan.AutoSize = false;
-            this.tsbtnDan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnDan.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_paste_80;
-            this.tsbtnDan.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbtnDan.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnDan.Name = "tsbtnDan";
-            this.tsbtnDan.Size = new System.Drawing.Size(80, 100);
-            this.tsbtnDan.Text = "Dán";
-            this.tsbtnDan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbtnDan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbtnDan.Click += new System.EventHandler(this.tsbtnDan_Click_1);
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.AutoSize = false;
-            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton3.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_search_48__1_;
-            this.toolStripButton3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(50, 50);
-            this.toolStripButton3.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.toolStripButton3.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            this.toolStripButton3.Click += new System.EventHandler(this.tsbtnTimKiem_Click);
-            // 
-            // tsbtnThayThe
-            // 
-            this.tsbtnThayThe.AutoSize = false;
-            this.tsbtnThayThe.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnThayThe.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_replace_48__1_1;
-            this.tsbtnThayThe.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.tsbtnThayThe.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbtnThayThe.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnThayThe.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
-            this.tsbtnThayThe.Name = "tsbtnThayThe";
-            this.tsbtnThayThe.Size = new System.Drawing.Size(50, 50);
-            this.tsbtnThayThe.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.tsbtnThayThe.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            this.tsbtnThayThe.Click += new System.EventHandler(this.tsbtnThayThe_Click);
-            // 
-            // tsbtnCopy
-            // 
-            this.tsbtnCopy.AutoSize = false;
-            this.tsbtnCopy.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnCopy.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_copy_50;
-            this.tsbtnCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnCopy.Margin = new System.Windows.Forms.Padding(0);
-            this.tsbtnCopy.Name = "tsbtnCopy";
-            this.tsbtnCopy.Size = new System.Drawing.Size(86, 60);
-            this.tsbtnCopy.Text = "Copy";
-            this.tsbtnCopy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.tsbtnCopy.Click += new System.EventHandler(this.tsbtnCopy_Click);
-            // 
-            // tsbtnEmoji
-            // 
-            this.tsbtnEmoji.AutoSize = false;
-            this.tsbtnEmoji.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold);
-            this.tsbtnEmoji.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_anime_emoji_80;
-            this.tsbtnEmoji.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbtnEmoji.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnEmoji.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
-            this.tsbtnEmoji.Name = "tsbtnEmoji";
-            this.tsbtnEmoji.Size = new System.Drawing.Size(100, 100);
-            this.tsbtnEmoji.Text = "Emoji";
-            this.tsbtnEmoji.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbtnEmoji.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbtnEmoji.Click += new System.EventHandler(this.tsbtnEmoji_Click);
-            // 
-            // tsbtnHinhAnh
-            // 
-            this.tsbtnHinhAnh.AutoSize = false;
-            this.tsbtnHinhAnh.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnHinhAnh.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tsbtnHinhAnh.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_add_image_80;
-            this.tsbtnHinhAnh.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbtnHinhAnh.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnHinhAnh.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
-            this.tsbtnHinhAnh.Name = "tsbtnHinhAnh";
-            this.tsbtnHinhAnh.Size = new System.Drawing.Size(100, 100);
-            this.tsbtnHinhAnh.Text = "Ảnh";
-            this.tsbtnHinhAnh.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.tsbtnHinhAnh.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            this.tsbtnHinhAnh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbtnHinhAnh.Click += new System.EventHandler(this.tsbtnHinhAnh_Click);
-            // 
-            // tsbtnNgayvaGio
-            // 
-            this.tsbtnNgayvaGio.AutoSize = false;
-            this.tsbtnNgayvaGio.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnNgayvaGio.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnNgayvaGio.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_time_limit_80;
-            this.tsbtnNgayvaGio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbtnNgayvaGio.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnNgayvaGio.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
-            this.tsbtnNgayvaGio.Name = "tsbtnNgayvaGio";
-            this.tsbtnNgayvaGio.Size = new System.Drawing.Size(100, 100);
-            this.tsbtnNgayvaGio.Text = "Ngày và Giờ";
-            this.tsbtnNgayvaGio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbtnNgayvaGio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbtnNgayvaGio.Click += new System.EventHandler(this.tsbtnNgayvaGio_Click);
-            // 
-            // tsbtnCut
-            // 
-            this.tsbtnCut.AutoSize = false;
-            this.tsbtnCut.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnCut.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_cut_48;
-            this.tsbtnCut.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnCut.Margin = new System.Windows.Forms.Padding(0);
-            this.tsbtnCut.Name = "tsbtnCut";
-            this.tsbtnCut.Size = new System.Drawing.Size(86, 60);
-            this.tsbtnCut.Text = "Cắt";
-            this.tsbtnCut.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.tsbtnCut.Click += new System.EventHandler(this.tsbtnCut_Click);
-            // 
-            // tsbtnCanTrai
-            // 
-            this.tsbtnCanTrai.AutoSize = false;
-            this.tsbtnCanTrai.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnCanTrai.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnCanTrai.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_align_left_50;
-            this.tsbtnCanTrai.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnCanTrai.Name = "tsbtnCanTrai";
-            this.tsbtnCanTrai.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnCanTrai.Text = "Căn Trái";
-            this.tsbtnCanTrai.Click += new System.EventHandler(this.tsbtnCanChu_Click);
-            // 
-            // tsbtnCanGiua
-            // 
-            this.tsbtnCanGiua.AutoSize = false;
-            this.tsbtnCanGiua.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnCanGiua.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_align_justify_50;
-            this.tsbtnCanGiua.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnCanGiua.Name = "tsbtnCanGiua";
-            this.tsbtnCanGiua.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnCanGiua.Text = "Căn Giữa";
-            this.tsbtnCanGiua.Click += new System.EventHandler(this.tsbtnCanChu_Click);
-            // 
-            // tsbtnCanPhai
-            // 
-            this.tsbtnCanPhai.AutoSize = false;
-            this.tsbtnCanPhai.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnCanPhai.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_align_right_50;
-            this.tsbtnCanPhai.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnCanPhai.Name = "tsbtnCanPhai";
-            this.tsbtnCanPhai.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnCanPhai.Text = "Căn Phải";
-            this.tsbtnCanPhai.Click += new System.EventHandler(this.tsbtnCanChu_Click);
-            // 
-            // tsbtnChuDam
-            // 
-            this.tsbtnChuDam.AutoSize = false;
-            this.tsbtnChuDam.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnChuDam.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.tsbtnChuDam.Font = new System.Drawing.Font(".VnTime", 16.2F, System.Drawing.FontStyle.Bold);
-            this.tsbtnChuDam.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.Bold1;
-            this.tsbtnChuDam.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnChuDam.Name = "tsbtnChuDam";
-            this.tsbtnChuDam.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnChuDam.Text = "B";
-            this.tsbtnChuDam.ToolTipText = "Đậm";
-            this.tsbtnChuDam.Click += new System.EventHandler(this.tsbtnKieuChuClick);
-            // 
-            // tsbtnChuNghieng
-            // 
-            this.tsbtnChuNghieng.AutoSize = false;
-            this.tsbtnChuNghieng.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.tsbtnChuNghieng.Font = new System.Drawing.Font(".VnTime", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnChuNghieng.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_italic_52;
-            this.tsbtnChuNghieng.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnChuNghieng.Name = "tsbtnChuNghieng";
-            this.tsbtnChuNghieng.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnChuNghieng.Text = "I";
-            this.tsbtnChuNghieng.ToolTipText = "Nghiêng";
-            this.tsbtnChuNghieng.Click += new System.EventHandler(this.tsbtnKieuChuClick);
-            // 
-            // tsbtnGachDuoi
-            // 
-            this.tsbtnGachDuoi.AutoSize = false;
-            this.tsbtnGachDuoi.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.tsbtnGachDuoi.Font = new System.Drawing.Font(".VnTimeH", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnGachDuoi.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_underline_501;
-            this.tsbtnGachDuoi.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnGachDuoi.Name = "tsbtnGachDuoi";
-            this.tsbtnGachDuoi.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnGachDuoi.Text = "U";
-            this.tsbtnGachDuoi.ToolTipText = "Gạch Dưới";
-            this.tsbtnGachDuoi.Click += new System.EventHandler(this.tsbtnKieuChuClick);
-            // 
-            // tsbtnGachGiua
-            // 
-            this.tsbtnGachGiua.AutoSize = false;
-            this.tsbtnGachGiua.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnGachGiua.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_strikethrough_60;
-            this.tsbtnGachGiua.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnGachGiua.Name = "tsbtnGachGiua";
-            this.tsbtnGachGiua.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnGachGiua.Text = "Strike Through";
-            this.tsbtnGachGiua.ToolTipText = "Gạch Giữa";
-            this.tsbtnGachGiua.Click += new System.EventHandler(this.tsbtnKieuChuClick);
-            // 
-            // tsbtnTextColor
-            // 
-            this.tsbtnTextColor.AutoSize = false;
-            this.tsbtnTextColor.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnTextColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.tsbtnTextColor.Font = new System.Drawing.Font(".VnTime", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsbtnTextColor.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tsbtnTextColor.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_a_26;
-            this.tsbtnTextColor.ImageTransparentColor = System.Drawing.Color.White;
-            this.tsbtnTextColor.Name = "tsbtnTextColor";
-            this.tsbtnTextColor.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnTextColor.Text = "A";
-            this.tsbtnTextColor.ToolTipText = "Màu Chữ";
-            this.tsbtnTextColor.Click += new System.EventHandler(this.tsbtnTextColor_Click);
-            // 
-            // tsbtnColor
-            // 
-            this.tsbtnColor.AutoSize = false;
-            this.tsbtnColor.BackColor = System.Drawing.SystemColors.Control;
-            this.tsbtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnColor.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_color_dropper_482;
-            this.tsbtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnColor.Name = "tsbtnColor";
-            this.tsbtnColor.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnColor.Text = "Bôi Màu Chữ";
-            this.tsbtnColor.Click += new System.EventHandler(this.tsbtnColor_Click);
-            // 
-            // tsbtnTangChu
-            // 
-            this.tsbtnTangChu.AutoSize = false;
-            this.tsbtnTangChu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnTangChu.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.aCrease2;
-            this.tsbtnTangChu.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnTangChu.Name = "tsbtnTangChu";
-            this.tsbtnTangChu.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnTangChu.Text = "Tăng Cỡ Chữ";
-            this.tsbtnTangChu.Click += new System.EventHandler(this.tsbtnTangGiamChu_Click);
-            this.tsbtnTangChu.MouseHover += new System.EventHandler(this.tsbtnTangChu_MouseHover);
-            // 
-            // tsbtnGiamChu
-            // 
-            this.tsbtnGiamChu.AutoSize = false;
-            this.tsbtnGiamChu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnGiamChu.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.aDecrease;
-            this.tsbtnGiamChu.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnGiamChu.Name = "tsbtnGiamChu";
-            this.tsbtnGiamChu.Size = new System.Drawing.Size(40, 40);
-            this.tsbtnGiamChu.Text = "Giảm Cỡ Chữ";
-            this.tsbtnGiamChu.Click += new System.EventHandler(this.tsbtnTangGiamChu_Click);
-            this.tsbtnGiamChu.MouseHover += new System.EventHandler(this.tsbtnTangChu_MouseHover);
-            // 
-            // tsmiNew
-            // 
-            this.tsmiNew.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.newFile;
-            this.tsmiNew.Name = "tsmiNew";
-            this.tsmiNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.tsmiNew.Size = new System.Drawing.Size(200, 30);
-            this.tsmiNew.Text = "Mới";
-            this.tsmiNew.Click += new System.EventHandler(this.tsmiNew_Click);
-            // 
-            // tsmiOpen
-            // 
-            this.tsmiOpen.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.openFile;
-            this.tsmiOpen.Name = "tsmiOpen";
-            this.tsmiOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.tsmiOpen.Size = new System.Drawing.Size(200, 30);
-            this.tsmiOpen.Text = "Mở";
-            this.tsmiOpen.Click += new System.EventHandler(this.tsmiOpen_Click);
-            // 
-            // tsmiDong
-            // 
-            this.tsmiDong.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_close_tab_48;
-            this.tsmiDong.Name = "tsmiDong";
-            this.tsmiDong.Size = new System.Drawing.Size(200, 30);
-            this.tsmiDong.Text = "Đóng";
-            this.tsmiDong.Click += new System.EventHandler(this.tsmiDong_Click);
-            // 
-            // tsmiLuu
-            // 
-            this.tsmiLuu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tsmiLuu.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.saveFile2;
-            this.tsmiLuu.Name = "tsmiLuu";
-            this.tsmiLuu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.tsmiLuu.Size = new System.Drawing.Size(200, 30);
-            this.tsmiLuu.Text = "Lưu";
-            this.tsmiLuu.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            // 
-            // tsmiSave
-            // 
-            this.tsmiSave.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.saveAs;
-            this.tsmiSave.Name = "tsmiSave";
-            this.tsmiSave.Size = new System.Drawing.Size(200, 30);
-            this.tsmiSave.Text = "Lưu Mới";
-            this.tsmiSave.Click += new System.EventHandler(this.tsmiSave_Click);
-            // 
-            // tsmiXemIn
-            // 
-            this.tsmiXemIn.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_list_is_empty_48;
-            this.tsmiXemIn.Name = "tsmiXemIn";
-            this.tsmiXemIn.Size = new System.Drawing.Size(200, 30);
-            this.tsmiXemIn.Text = "Xem In...";
-            this.tsmiXemIn.Click += new System.EventHandler(this.tsmiXemIn_Click);
-            // 
-            // tsmnIn
-            // 
-            this.tsmnIn.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.printFile;
-            this.tsmnIn.Name = "tsmnIn";
-            this.tsmnIn.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.tsmnIn.Size = new System.Drawing.Size(200, 30);
-            this.tsmnIn.Text = "In";
-            this.tsmnIn.Click += new System.EventHandler(this.tsmnIn_Click);
-            // 
-            // tsmiThoat
-            // 
-            this.tsmiThoat.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_close_window_502;
-            this.tsmiThoat.Name = "tsmiThoat";
-            this.tsmiThoat.Size = new System.Drawing.Size(200, 30);
-            this.tsmiThoat.Text = "Thoát";
-            this.tsmiThoat.Click += new System.EventHandler(this.tsmiThoat_Click);
-            // 
-            // tsmiUndo
-            // 
-            this.tsmiUndo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_undo_242;
-            this.tsmiUndo.Name = "tsmiUndo";
-            this.tsmiUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.tsmiUndo.Size = new System.Drawing.Size(347, 30);
-            this.tsmiUndo.Text = "Undo";
-            this.tsmiUndo.Click += new System.EventHandler(this.tsmiUndo_Click);
-            // 
-            // tsmiRedo
-            // 
-            this.tsmiRedo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_redo_241;
-            this.tsmiRedo.Name = "tsmiRedo";
-            this.tsmiRedo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.tsmiRedo.Size = new System.Drawing.Size(347, 30);
-            this.tsmiRedo.Text = "Redo";
-            this.tsmiRedo.Click += new System.EventHandler(this.tsmiRedo_Click);
-            // 
-            // tsmiCopy
-            // 
-            this.tsmiCopy.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_copy_48;
-            this.tsmiCopy.Name = "tsmiCopy";
-            this.tsmiCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.tsmiCopy.Size = new System.Drawing.Size(347, 30);
-            this.tsmiCopy.Text = "Sao Chép";
-            this.tsmiCopy.Click += new System.EventHandler(this.tsmiCopy_Click);
-            // 
-            // tsmiCat
-            // 
-            this.tsmiCat.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_cut_48__1_;
-            this.tsmiCat.Name = "tsmiCat";
-            this.tsmiCat.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.tsmiCat.Size = new System.Drawing.Size(347, 30);
-            this.tsmiCat.Text = "Cắt";
-            this.tsmiCat.Click += new System.EventHandler(this.tsmiCat_Click);
-            // 
-            // tsmiDan
-            // 
-            this.tsmiDan.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_paste_48;
-            this.tsmiDan.Name = "tsmiDan";
-            this.tsmiDan.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.tsmiDan.Size = new System.Drawing.Size(347, 30);
-            this.tsmiDan.Text = "Dán";
-            this.tsmiDan.Click += new System.EventHandler(this.tsmiDan_Click);
-            // 
-            // tsmiTimKiem
-            // 
-            this.tsmiTimKiem.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_search_48;
-            this.tsmiTimKiem.Name = "tsmiTimKiem";
-            this.tsmiTimKiem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.tsmiTimKiem.Size = new System.Drawing.Size(347, 30);
-            this.tsmiTimKiem.Text = "Tìm Kiếm";
-            this.tsmiTimKiem.Click += new System.EventHandler(this.tsmiTimKiem_Click);
-            // 
-            // tsmiTimKiemThayThe
-            // 
-            this.tsmiTimKiemThayThe.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_replace_48__1_;
-            this.tsmiTimKiemThayThe.Name = "tsmiTimKiemThayThe";
-            this.tsmiTimKiemThayThe.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.tsmiTimKiemThayThe.Size = new System.Drawing.Size(347, 30);
-            this.tsmiTimKiemThayThe.Text = "Tìm Kiếm và Thay Thế";
-            this.tsmiTimKiemThayThe.Click += new System.EventHandler(this.tsmiTimKiemThayThe_Click);
-            // 
-            // tsmiPhongTo
-            // 
-            this.tsmiPhongTo.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_zoom_in_501;
-            this.tsmiPhongTo.Name = "tsmiPhongTo";
-            this.tsmiPhongTo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
-            this.tsmiPhongTo.Size = new System.Drawing.Size(242, 30);
-            this.tsmiPhongTo.Text = "Phóng To";
-            this.tsmiPhongTo.Click += new System.EventHandler(this.tsmiPhongTo_Click);
-            // 
-            // tsmiThuNho
-            // 
-            this.tsmiThuNho.Image = global::MiniWord_TrinhPhucHieu.Properties.Resources.icons8_zoom_out_50;
-            this.tsmiThuNho.Name = "tsmiThuNho";
-            this.tsmiThuNho.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
-            this.tsmiThuNho.Size = new System.Drawing.Size(242, 30);
-            this.tsmiThuNho.Text = "Thu nhỏ";
-            this.tsmiThuNho.Click += new System.EventHandler(this.tsmiThuNho_Click);
-            // 
-            // mauChuToolStripMenuItem
-            // 
-            this.mauChuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.boiDenToolStripMenuItem,
-            this.boiDamToolStripMenuItem,
-            this.gachChanToolStripMenuItem,
-            this.gachGiuaToolStripMenuItem});
-            this.mauChuToolStripMenuItem.Name = "mauChuToolStripMenuItem";
-            this.mauChuToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
-            this.mauChuToolStripMenuItem.Text = "MauChu";
-            this.mauChuToolStripMenuItem.Visible = false;
-            // 
-            // boiDenToolStripMenuItem
-            // 
-            this.boiDenToolStripMenuItem.Name = "boiDenToolStripMenuItem";
-            this.boiDenToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.boiDenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.boiDenToolStripMenuItem.Text = "BoiDen";
-            this.boiDenToolStripMenuItem.Click += new System.EventHandler(this.boiDenToolStripMenuItem_Click);
-            // 
-            // boiDamToolStripMenuItem
-            // 
-            this.boiDamToolStripMenuItem.Name = "boiDamToolStripMenuItem";
-            this.boiDamToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.boiDamToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.boiDamToolStripMenuItem.Text = "Nghieng";
-            this.boiDamToolStripMenuItem.Click += new System.EventHandler(this.boiDamToolStripMenuItem_Click);
-            // 
-            // gachChanToolStripMenuItem
-            // 
-            this.gachChanToolStripMenuItem.Name = "gachChanToolStripMenuItem";
-            this.gachChanToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.gachChanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.gachChanToolStripMenuItem.Text = "GachChan";
-            this.gachChanToolStripMenuItem.Click += new System.EventHandler(this.gachChanToolStripMenuItem_Click);
-            // 
-            // gachGiuaToolStripMenuItem
-            // 
-            this.gachGiuaToolStripMenuItem.Name = "gachGiuaToolStripMenuItem";
-            this.gachGiuaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.gachGiuaToolStripMenuItem.Text = "GachGiua";
-            this.gachGiuaToolStripMenuItem.Click += new System.EventHandler(this.gachGiuaToolStripMenuItem_Click);
             // 
             // FrmHieu
             // 
